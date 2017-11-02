@@ -15,7 +15,7 @@ from email import Encoders
 
 #######################################
 gmail_user = 'leandro.mantovani93@gmail.com'
-gmail_pwd = 'mentira123'
+gmail_pwd = os.environ['pw_mail']
 server = "smtp.gmail.com"
 server_port = 587
 #######################################
